@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8">
+  <title>HTML Academy: Пинк</title>
+</head>
+<body>
+
+  <header class="main-header">
+    <div class="main-header__menu">
+      <a href="#" class="logo">
+        <img src="#" alt="PINK">
+    </a>
+</div>
+</header>
+
+<main class="main-content">
+    <div class="main-image">
+        <p class="main-image__title">
+            Конкурс на самое безбашенное путешествие с Пинк
+        </p>
+    </div>
+    <p class="main-text">
+        Поделитесь своей историей и получите шанс выиграть ценный приз -1000 миль на вашу бонусную карту!
+    </p>
+    <form action="" class="main-form" enctype = "multipart/form-data">
+        <label for="name">Имя:*</label>
+        <input type="text" id="name" required placeholder = "Введите ваше имя">  
+        <label for="surname">Фамилия:*</label>
+        <input type="text" id="surname" required placeholder = "Укажите фамилию">
+        <label for="second-name">Отчество:*</label>
+        <input type="text" id="second-name" required placeholder = "Ну и отчество тоже">  
+
+        <fieldset class="app">
+            <p class="app__title">С каким приложением путешествовали?*</p>
+            <input type="radio" name="app" value="ios">Pink на iOs</label><br>
+            <input type="radio" name="app" value="android">Pink на Android<br>
+            <input type="radio" name="app" value="android">Windows Phone<br>
+        </fieldset>
+        <fieldset class="date-travel">
+            <p class="date-travel__title">Когда вы путешествовали?*</p>
+            <input type="date" id="date-depart">
+            <label for="date-depart">Дата выезда</label>
+            <input type="text" value="10 дней" id="duration">
+            <label for="duration">Продолжительность</label> 
+            <input type="date" id="date-arrive">
+            <label for="date-arrive">Дата возвращения</label> 
+        </fieldset> 
+        <filedaet class="companion">
+            <label for="companion-count">Количество попутчиков:*</label>
+            <input type="text" id="companion-count">2 чел<br>
+            <ol class="companion__list">
+                <li class="companion__item">
+                    <label for="">ИМЯ:*</label>
+                    <input type="text" id="companion__name" value="Введите ваше имя">
+                </li>
+                <li class="companion__item">
+                    <label for="">ИМЯ:*</label>
+                    <input type="text" id="companion__name" value="Введите ваше имя">
+                </li>
+            </ol>
+        </filedset> 
+        <fieldset class="achiev">
+            <p class="achiev">Ваши безбашенные достижения в путешествии</p>
+            <input type="checkbox" class="achiev__item" checked>Сделала селфи с акулой <br>
+            <input type="checkbox" class="achiev__item" checked>Обгорел на пляже <br>
+            <input type="checkbox" class="achiev__item">Видел Чака Норриса <br>
+            <input type="checkbox" class="achiev__item">Накупил сувениров <br>
+            <input type="checkbox" class="achiev__item" checked>Удеражал башню <br>
+            <input type="checkbox" class="achiev__item">Разгромил отель <br>
+        </fieldset>
+        <fieldset class="image">
+            <label for="image__download">Ваши фотографии из поездки*</label>
+            <input type="file" name="image__download" id="image__download" value="ЗАГРУЗИТЬ ФОТО" required>
+            <ul class="image__gallery">
+                <li class="image__item">
+                    <img src="#" alt="">
+                </li>
+                <li class="image__item">
+                    <img src="#" alt="">
+                </li>
+                <li class="image__item">
+                    <img src="#" alt="">
+                </li>
+                <li class="image__item">
+                    <img src="#" alt="">
+                </li>
+                <li class="image__item">
+                    <img src="#" alt="">
+                </li>
+                <li class="image__item">
+                    <img src="#" alt="">
+                </li>
+                <li class="image__item">
+                    <img src="#" alt="">
+                </li>
+                <li class="image__item">
+                    <img src="#" alt="">
+                </li>
+            </ul>
+        </fieldset>
+        <input type="submit" class="main-form__submit" value="Отправить форму"> 
+        <p><strong>*</strong>-Обязательные поля</p>
+    </form>
+</main>
+<footer class="main-footer">
+    <div class="footer-logo"><img src="" alt=""></div>
+    <div class="footer-social">
+        <a href="#" class="footer-social__btn footer-social__tw"></a>
+        <a href="#" class="footer-social__btn footer-social__fb"></a>
+        <a href="#" class="footer-social__btn footer-social__inst"></a>
+    </div> 
+    <div class="footer-main__copyright">
+        <a href="">Разработано<img src="" alt=""></a>
+    </div>
+</footer>
+</body>
+</html>
